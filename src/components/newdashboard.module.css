@@ -1,0 +1,69 @@
+#newdash{
+    display: flex;
+    margin-top: 90px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+#header{
+    margin-top: 90px;
+    text-align: center;
+    font-family: Calibri;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#form label{
+    font-size: 30px;
+    display: block;
+    font-weight: 600;
+    font-family: Calibri;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+#form h3{
+    font-size: 26px;
+    font-family: Calibri;
+}
+#form input{
+padding: 3px 10px;
+height: 30px;
+width: 300px;
+align-self: center;
+border: 0.1px solid black;
+border-radius: 10px;
+background-color: rgb(200, 194, 194);
+font-size: 19px;
+font-family: Calibri;
+}
+#stock{
+    height: 40px;
+    width: 120px;
+    border: 0.5px solid rgb(118, 115, 115);
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+#stock:hover{
+    cursor: pointer;
+}
+#submit{
+    width: 120px;
+    height: 40px;
+    align-self: center;
+    margin-top: 20px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Calibri;
+}
+#submit:hover{
+    cursor: pointer;
+}
+#submit:active{
+    
+    background-color: rgb(207, 45, 45);
+}
